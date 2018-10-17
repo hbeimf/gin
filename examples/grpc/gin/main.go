@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	pb "github.com/gin-gonic/gin/examples/grpc/pb"
+	pb "github.com/hbeimf/gin/examples/grpc/pb"
 	"google.golang.org/grpc"
 )
 

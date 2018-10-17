@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/gin-gonic/gin"
-	"github.com/gin-gonic/gin/binding"
+	"github.com/hbeimf/gin/binding"
 	validator "gopkg.in/go-playground/validator.v8"
 )
 

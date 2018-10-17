@@ -145,6 +145,7 @@ func New() *Engine {
 }
 
 // Default returns an Engine instance with the Logger and Recovery middleware already attached.
+// 入口文件
 func Default() *Engine {
 	debugPrintWARNINGDefault()
 	engine := New()
@@ -281,6 +282,7 @@ func iterate(path, method string, routes RoutesInfo, root *node) RoutesInfo {
 // Run attaches the router to a http.Server and starts listening and serving HTTP requests.
 // It is a shortcut for http.ListenAndServe(addr, router)
 // Note: this method will block the calling goroutine indefinitely unless an error happens.
+// 入口文件
 func (engine *Engine) Run(addr ...string) (err error) {
 	defer func() { debugPrintError(err) }()
 

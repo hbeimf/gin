@@ -4,10 +4,10 @@
 
 [![Build Status](https://travis-ci.org/gin-gonic/gin.svg)](https://travis-ci.org/gin-gonic/gin)
 [![codecov](https://codecov.io/gh/gin-gonic/gin/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-gonic/gin)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-gonic/gin)](https://goreportcard.com/report/github.com/gin-gonic/gin)
-[![GoDoc](https://godoc.org/github.com/gin-gonic/gin?status.svg)](https://godoc.org/github.com/gin-gonic/gin)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hbeimf/gin)](https://goreportcard.com/report/github.com/hbeimf/gin)
+[![GoDoc](https://godoc.org/github.com/hbeimf/gin?status.svg)](https://godoc.org/github.com/hbeimf/gin)
 [![Join the chat at https://gitter.im/gin-gonic/gin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gin-gonic/gin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Sourcegraph](https://sourcegraph.com/github.com/hbeimf/gin/-/badge.svg)](https://sourcegraph.com/github.com/gin-gonic/gin?badge)
+[![Sourcegraph](https://sourcegraph.com/github.com/hbeimf/gin/-/badge.svg)](https://sourcegraph.com/github.com/hbeimf/gin?badge)
 [![Open Source Helpers](https://www.codetriage.com/gin-gonic/gin/badges/users.svg)](https://www.codetriage.com/gin-gonic/gin)
 [![Release](https://img.shields.io/github/release/gin-gonic/gin.svg?style=flat-square)](https://github.com/hbeimf/gin/releases)
 
@@ -70,13 +70,13 @@ To install Gin package, you need to install Go and set your Go workspace first.
 1. Download and install it:
 
 ```sh
-$ go get -u github.com/gin-gonic/gin
+$ go get -u github.com/hbeimf/gin
 ```
 
 2. Import it in your code:
 
 ```go
-import "github.com/gin-gonic/gin"
+import "github.com/hbeimf/gin"
 ```
 
 3. (Optional) Import `net/http`. This is required for example if using constants such as `http.StatusOK`.
@@ -102,7 +102,7 @@ $ mkdir -p $GOPATH/src/github.com/myusername/project && cd "$_"
 
 ```sh
 $ govendor init
-$ govendor fetch github.com/gin-gonic/gin@v1.3
+$ govendor fetch github.com/hbeimf/gin@v1.3
 ```
 
 4. Copy a starting template inside your project
@@ -131,7 +131,7 @@ $ cat example.go
 ```go
 package main
 
-import "github.com/gin-gonic/gin"
+import "github.com/hbeimf/gin"
 
 func main() {
 	r := gin.Default()
@@ -654,7 +654,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 	"github.com/hbeimf/gin/binding"
 	"gopkg.in/go-playground/validator.v8"
 )
@@ -720,7 +720,7 @@ package main
 import (
 	"log"
 
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 )
 
 type Person struct {
@@ -757,7 +757,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 )
 
 type Person struct {
@@ -844,7 +844,7 @@ result:
 package main
 
 import (
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 )
 
 type LoginForm struct {
@@ -1175,7 +1175,7 @@ import (
     "net/http"
     "time"
 
-    "github.com/gin-gonic/gin"
+    "github.com/hbeimf/gin"
 )
 
 func formatAsDate(t time.Time) string {
@@ -1392,7 +1392,7 @@ import (
 	"log"
 
 	"github.com/gin-gonic/autotls"
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 )
 
 func main() {
@@ -1417,7 +1417,7 @@ import (
 	"log"
 
 	"github.com/gin-gonic/autotls"
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 	"golang.org/x/crypto/acme/autocert"
 )
 
@@ -1452,7 +1452,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 	"golang.org/x/sync/errgroup"
 )
 
@@ -1557,7 +1557,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 )
 
 func main() {
@@ -1801,7 +1801,7 @@ import (
 	"html/template"
 	"log"
 
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 )
 
 var html = template.Must(template.New("https").Parse(`
@@ -1854,7 +1854,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 )
 
 func main() {
@@ -1929,7 +1929,7 @@ func TestPingRoute(t *testing.T) {
 
 ## Users
 
-Awesome project lists using [Gin](https://github.com/gin-gonic/gin) web framework.
+Awesome project lists using [Gin](https://github.com/hbeimf/gin) web framework.
 
 * [drone](https://github.com/drone/drone): Drone is a Continuous Delivery platform built on Docker, written in Go.
 * [gorush](https://github.com/appleboy/gorush): A push notification server written in Go.

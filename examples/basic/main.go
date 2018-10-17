@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/gin-gonic/gin"
+	"github.com/hbeimf/gin"
 )
 
 var db = make(map[string]string)

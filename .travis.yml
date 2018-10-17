@@ -18,7 +18,7 @@ git:
 install:
   - make install
 
-go_import_path: github.com/gin-gonic/gin
+go_import_path: github.com/hbeimf/gin
 
 script:
   - make vet
